@@ -72,16 +72,16 @@ header{
     cursor: pointer;
 }
 .search_button{
-    background: url("/src/search_icon.svg") 50% 50% no-repeat;
+    background: url("../src/search_icon.svg") 50% 50% no-repeat;
 }
 .login_button{
-    background: url("/src/login_icon.svg") 50% 50% no-repeat;
+    background: url("../src/login_icon.svg") 50% 50% no-repeat;
 }
 .aditional_button{
-    background: url("/src/aditional_icon.svg") 50% 50% no-repeat;
+    background: url("../src/aditional_icon.svg") 50% 50% no-repeat;
 }
 main{
     width: 1920px;
     height: 100%;
-    background: url("/src/background.jpg")  no-repeat;
+    background: url("../src/background.jpg")  no-repeat;
 }
