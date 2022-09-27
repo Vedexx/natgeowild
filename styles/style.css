@@ -31,8 +31,7 @@ body{
     overflow: hidden;
 }
 
-header{
-    
+header{    
     position: absolute;
     z-index: 1;
     display: flex;
@@ -40,8 +39,47 @@ header{
     left: 44px;
     right: 44px;
     justify-content: space-between;
+    vertical-align: middle;
 }
 
+.main-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 0 45px;
+}
+.main-nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.additional{
+    display: flex;
+    list-style: none;
+   
+    margin: 0;
+    padding: 0;
+    gap: 0 30px;
+}
+.additional button{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.search_button{
+    background: url("/src/search_icon.svg") 50% 50% no-repeat;
+}
+.login_button{
+    background: url("/src/login_icon.svg") 50% 50% no-repeat;
+}
+.aditional_button{
+    background: url("/src/aditional_icon.svg") 50% 50% no-repeat;
+}
 main{
     width: 1920px;
     height: 100%;
