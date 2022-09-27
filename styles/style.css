@@ -8,13 +8,14 @@ img{
 
 body{
     position: absolute;
+    margin-left: auto;
+    margin-right: auto;
     background-color:#406343;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     width: 1920px;
     height: 1080px;
     padding: 0;
-    margin: 0 auto;
     color: #ffffff;
 }
 
@@ -83,17 +84,51 @@ header{
 main{
     padding-top: 1px;
     width: 1920px;
+    height: 1080px;
     height: 100%;
     background: url("../src/background.jpg")  no-repeat;
 }
 
 .title{
     position: relative;
-    border: 1px solid ;
     margin:  408px;
 }
 .square{
     position: absolute;
     left:291px;
     top:-30%;
+}
+.description{
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+    width: 430px;
+    height: 159px;
+    right: 147px;
+    bottom: 246px;;
+}
+.description h2{
+    text-transform: uppercase;
+    line-height: 25px;
+}
+.description p{
+    color:#B3B3B3;
+}
+.play_button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 380px;
+    height:80px;
+    background-color: #406343;
+    border: none;
+    left: 811px;
+    bottom: 189px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;    
+    padding-right: 47px;
+    padding-left: 47px;
 }
