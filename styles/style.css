@@ -81,7 +81,19 @@ header{
     background: url("../src/aditional_icon.svg") 50% 50% no-repeat;
 }
 main{
+    padding-top: 1px;
     width: 1920px;
     height: 100%;
     background: url("../src/background.jpg")  no-repeat;
+}
+
+.title{
+    position: relative;
+    border: 1px solid ;
+    margin:  408px;
+}
+.square{
+    position: absolute;
+    left:291px;
+    top:-30%;
 }
